@@ -1,3 +1,9 @@
+.flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
 h1 {
     font-size: 10vw;
     text-align: center;
@@ -30,16 +36,6 @@ img {
     padding: 0 6%;
 }
 
-.left {
-    float: left;
-    text-align: left !important;
-}
-
-.right {
-    float: right;
-    width: 70%;
-}
-
 #bella {
     padding-top: 100px;
 }
@@ -51,5 +47,6 @@ img {
 .mission {
     width: 15%;
     aspect-ratio: 1;
-    margin-top: 60px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
