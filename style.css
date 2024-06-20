@@ -40,6 +40,11 @@ img {
     padding-top: 100px;
 }
 
+#elayna div div {
+    display: flex;
+    flex-direction: column;
+}
+
 #statement {
     padding-top: 100px;
 }
