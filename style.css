@@ -1,0 +1,35 @@
+h1 {
+    font-size: 100px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 55px;
+    text-align: center
+}
+
+h3 {
+    font-size: 4vw;
+    text-align: center;
+}
+
+p {
+    font-size: 3vw;
+    text-align: center;
+}
+li {
+    font-size: 3vw;
+}
+
+img {
+    padding: 0 6%;
+}
+
+.left {
+    float: left;
+    text-align: left !important;
+}
+
+.right {
+    float: right;
+}
