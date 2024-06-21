@@ -1,4 +1,9 @@
-.flex {
+body {
+    background-image: url("images/full-sky.jpg");
+    background-size: cover;
+}
+
+.row {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -20,20 +25,24 @@ h3 {
 }
 
 p {
-    font-size: 2vw;
+    font-size: 2.5vw;
     text-align: center;
     clear:left;
 }
 li {
-    font-size: 2vw;
+    font-size: 2.5vw;
     padding-top: 15px;
     padding-bottom: 15px;
     padding-left: 1%;
     margin-left: 5%;
 }
 
-img {
+#banner img {
     padding: 0 6%;
+}
+
+#banner {
+    margin-top: 30vw;
 }
 
 #bella {
@@ -43,11 +52,23 @@ img {
 #elayna div div {
     display: flex;
     flex-direction: column;
+    height: 100%;
+    width: 100%;
 }
-#row {
-    display: flex;
-    flex-direction: row;
+#elayna img {
+    width: 100%;
 }
+.small {
+    width: 40% !important;
+}
+
+.left {
+    margin-left: 12%;
+}
+.right {
+    margin-left: -8%;
+}
+
 
 #statement {
     padding-top: 100px;
@@ -55,7 +76,4 @@ img {
 
 .mission {
     width: 15%;
-    aspect-ratio: 1;
-    margin-top: auto;
-    margin-bottom: auto;
 }
