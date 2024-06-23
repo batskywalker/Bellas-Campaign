@@ -41,7 +41,7 @@ h1 {
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter:drop-shadow(-40px 20px #000);
+    filter:drop-shadow(-0.5vw 0.3vw #000);
 }
 
 h2 {
@@ -52,7 +52,7 @@ h2 {
     -webkit-background-clip: text;
             background-clip: text;
     -webkit-text-fill-color: transparent;
-    filter:drop-shadow(-20px 10px #000);
+    filter:drop-shadow(-0.4vw 0.2vw #000);
 }
 
 h3 {
@@ -114,6 +114,8 @@ q {
 
 #statement {
     padding-top: 100px;
+    width: 90%;
+    margin: 0 auto;
 }
 
 #message {
@@ -138,5 +140,5 @@ q {
 }
 
 .mission {
-    width: 15%;
+    width: 20%;
 }
