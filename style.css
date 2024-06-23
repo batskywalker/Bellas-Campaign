@@ -7,6 +7,15 @@
     font-display: swap;
 }
 
+@font-face {
+    font-family: 'Rad';
+    src: url('BMXRadical.woff2') format('woff2'),
+        url('BMXRadical.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
 body {
     background-image: url("images/full-sky.jpg");
     background-size: cover;
@@ -27,11 +36,23 @@ body {
 h1 {
     font-size: 10vw;
     text-align: center;
+    font-family: 'Rad';
+    background: linear-gradient(orangered, yellow);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter:drop-shadow(-40px 20px #000);
 }
 
 h2 {
     font-size: 5vw;
-    text-align: center
+    text-align: center;
+    font-family: 'Rad';
+    background: linear-gradient(orangered, yellow);
+    -webkit-background-clip: text;
+            background-clip: text;
+    -webkit-text-fill-color: transparent;
+    filter:drop-shadow(-20px 10px #000);
 }
 
 h3 {
