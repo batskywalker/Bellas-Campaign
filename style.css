@@ -20,6 +20,8 @@ body {
     background-image: url("images/full-sky.jpg");
     background-size: cover;
     font-family: 'Minecraft';
+    width: 80%;
+    margin: 0 auto;
 }
 
 .row {
@@ -95,13 +97,13 @@ q {
     display: flex;
     flex-direction: column;
     height: 100%;
-    width: 100%;
+    width: 33%;
 }
 #elayna img {
     width: 100%;
 }
 .small {
-    width: 100% !important;
+    width: 33% !important;
 }
 
 .left {
@@ -135,7 +137,7 @@ q {
 }
 
 .quote {
-    width: 70%;
+    width: 90%;
     margin: 30px auto;
 }
 
