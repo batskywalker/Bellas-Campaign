@@ -101,7 +101,7 @@ q {
     width: 100%;
 }
 .small {
-    width: 40% !important;
+    width: 100% !important;
 }
 
 .left {
@@ -141,4 +141,10 @@ q {
 
 .mission {
     width: 20%;
+}
+
+#thanks {
+    width: 70%;
+    color: white;
+    margin: 500px auto;
 }
