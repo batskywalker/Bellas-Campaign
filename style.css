@@ -199,9 +199,10 @@ q {
 }
 
 #final {
-    margin-top: 10vh;
+    margin: 10vh auto;
 }
 #final img {
     width: 100%;
-    margin-bottom: 10vh;
+    margin-left: auto;
+    margin-right: auto;
 }
