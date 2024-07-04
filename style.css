@@ -173,3 +173,11 @@ q {
     color: white;
     margin: 50px auto;
 }
+
+#final {
+    margin-top: 10vh;
+}
+#final img {
+    width: 100%;
+    margin-bottom: 10vh;
+}
