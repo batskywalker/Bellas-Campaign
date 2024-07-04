@@ -24,6 +24,30 @@ body {
     margin: 0 auto;
 }
 
+@media only screen and (max-width: 1000px) {
+    body {
+        width: 90% !important;
+    }
+    h1 {
+        font-size: 10vw !important;
+    }
+    h2 {
+        font-size: 7vw !important;
+    }
+    h3 {
+        font-size: 6vw !important;
+    }
+    p {
+        font-size: 5.5vw !important;
+    }
+    li {
+        font-size: 5.5vw !important;
+    }
+    q {
+        font-size: 5vw !important;
+    }
+}
+
 .row {
     display: flex;
     flex-direction: row;
